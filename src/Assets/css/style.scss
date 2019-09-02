@@ -1,0 +1,418 @@
+@font-face {
+  font-family: Helvetica, sans-serif;
+  src: url(../fonts/helvetica/Helvetica-Normal.ttf);
+}
+
+// MIN WIDTH
+// Extra small devices (portrait phones, less than 576px)
+// @media (max-width: 575.98px) { ... }
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+// -----------
+// @media (max-width: 575.98px) {
+  
+// }
+// @media (min-width: 576px) and (max-width: 767.98px) {
+  
+// }
+// @media (min-width: 768px) and (max-width: 991.98px) {
+  
+// }
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #E9EBEE;
+}
+
+.top-signin {
+  background-color: #3B5998;
+  .container {
+    .row {
+      min-height: 90px;
+      .col-lg-6 {
+        display: flex;
+        align-items: center;
+        &.logo {
+          justify-content: left;
+          .image-logo {
+            h1 {
+              color: #ffffff;
+              font-weight: bolder;
+            }
+          }
+          @media (max-width: 575.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+        }
+        &.sign-in {
+          justify-content: flex-end;
+          .signin-area {
+            display: flex;
+            .username-box,
+            .password-box {
+              margin: 0 30px 0 0;
+              font-size: 12px;
+              label {
+                display: block;
+                color: #ffffff;
+              }
+            }
+            .button-box {
+              display: flex;
+              align-items: flex-end;
+              button {
+                background-color: #4267B2;
+                color: #ffffff;
+                border: 1px solid #29487d;
+                font-size: 12px;
+                line-height: 34px;
+                &:hover {
+                  background-color: #5789ee;
+                }
+              }
+            }
+          }
+          @media (max-width: 575.98px) {
+            justify-content: center;
+            margin: 10px 0;
+            .signin-area {
+              display: block;
+              .username-box,
+              .password-box {
+                margin: 10px 0;
+                font-size: 12px;
+                text-align: center;
+                label {
+                  display: block;
+                  color: #ffffff;
+                }
+              }
+              .button-box {
+                display: block;
+                text-align: center;
+                button {
+                  background-color: #4267B2;
+                  color: #ffffff;
+                  border: 1px solid #29487d;
+                  font-size: 12px;
+                  line-height: 34px;
+                }
+              }
+            }
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+          @media (min-width: 768px) and (max-width: 991.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.body-content {
+  padding: 30px 0;
+  background-image: linear-gradient(#FDFDFE, #F3F4F9, #E4E7F1, #D4D9E8);
+  .container {
+    .row {
+      .col-lg-6 {
+        &.sideleft {
+          text-align: center;
+          .title {
+            margin: 0 0 30px 0;
+            h3 {
+              text-align: left;
+              font-size: 20px;
+              font-weight: bold;
+            }
+          }
+          img {
+            width: 70%;
+            opacity: .5;
+          }
+          @media (max-width: 575.98px) {
+            .title {
+              margin: 0 0 30px 0;
+              h3 {
+                text-align: center;
+              }
+            }
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            .title {
+              margin: 0 0 30px 0;
+              h3 {
+                text-align: center;
+              }
+            }
+          }
+        }
+        &.sideright {
+          .title {
+            margin: 0 0 30px 0;
+            h3 {
+              text-align: left;
+              font-size: 36px;
+              font-weight: bold;
+            }
+          }
+          .signup-box {
+            input {
+              display: block;
+              width: 100%;
+              margin: 0 0 15px 0;
+            }
+            button {
+              &.signup {
+                display: inline-block;
+                padding: 7px 70px;
+                background-image: linear-gradient(#64A751, #609F4E, #5C9448, #588B44);
+                color: #ffffff;
+                font-weight: bold;
+                border-radius: 8px;
+                border: none;
+                &:hover {
+                  background: linear-gradient(#79bc64, #578843);
+                }
+              }
+            }
+          }
+          @media (max-width: 575.98px) {
+            .title {
+              margin: 0 0 30px 0;
+              h3,
+              p {
+                text-align: center;
+              }
+            }
+            .signup-box {
+              text-align: center;
+            }
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            .title {
+              margin: 0 0 30px 0;
+              h3,
+              p {
+                text-align: center;
+              }
+            }
+            .signup-box {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  margin: 20px 0 10px;
+  text-align: center;
+  .container {
+    .row {
+      .col-sm-12 {
+        p {
+          margin: 0;
+          &.team {
+            font-size: 14px;
+          }
+          &.copyright {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.top-todo {
+  background-color: #3B5998;
+  .container {
+    .row {
+      min-height: 40px;
+      .col-lg-6 {
+        &.sideleft {
+          display: flex;
+          align-items: center;
+          h3 {
+            &.logo {
+              margin: 0 30px 0 0;
+              color: #ffffff;
+            }
+          }
+          @media (max-width: 575.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+        }
+        &.sideright {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          .profile {
+            display: flex;
+            align-items: center;
+            ul {
+              list-style: none;
+              display: flex;
+              margin: 0;
+              padding: 0;
+              color: #ffffff;
+              li {
+                margin: 0 10px;
+              }
+            }
+            button {
+              &.logout {
+                background-color: #4267B2;
+                color: #ffffff;
+                border: 1px solid #29487d;
+                font-size: 12px;
+                line-height: 24px;
+                &:hover {
+                  background-color: #5789ee;
+                }
+              }
+            }
+          }
+          @media (max-width: 575.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+          @media (min-width: 576px) and (max-width: 767.98px) {
+            justify-content: center;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.body-content-todo {
+  margin: 30px 0;
+  background-color: #E9EBEE;
+  .container {
+    .row {
+      .col-lg-6 {
+        &.sideleft {
+          .textbox-todo {
+            background-color: #F5F6F7;
+            border-radius: 10px;
+            .title {
+              h6 {
+                margin: 0;
+                padding: 10px 20px;
+                font-size: 12px;
+              }
+            }
+            .input-todo {
+              input {
+                border: none;
+                width: 100%;
+                padding: 10px 20px;
+                font-size: 20px
+              }
+            }
+            .subtitle {
+              margin: 20px 0 0;
+              h6 {
+                margin: 0;
+                padding: 10px 20px;
+                font-size: 12px;
+              }
+            }
+            .textarea-desc {
+              padding: 0 0 10px;
+              textarea {
+                width: 100%;
+                resize: none;
+                padding: 10px 20px;
+                border: none;
+                height: 150px;
+              }
+            }
+            .button-push {
+              display: flex;
+              justify-content: end;
+              padding: 10px 20px;
+              button {
+                font-size: 12px;
+                background-color: #4267B2;
+                color: #ffffff;
+                border: 1px solid #29487d;
+                line-height: 24px;
+                &:hover {
+                  background-color: #5789ee;
+                }
+              }
+            }
+          }
+        }
+        &.sideright {
+          .task-box {
+            margin: 0 0 30px 0;
+            input[type="checkbox"] {
+              margin: 0 10px 0 0;
+            }
+            h5 {
+              display: inline-block;
+              margin: 0;
+            }
+            p {
+              font-size: 13px;
+              margin: 0;
+              padding: 0 0 0 25px;
+            }
+            .button {
+              padding: 0 0 0 25px;
+              button {
+                &.edit,
+                &.delete {
+                  font-size: 12px;
+                  background-color: #4267B2;
+                  color: #ffffff;
+                  border: 1px solid #29487d;
+                  line-height: 24px;
+                  margin: 7px 5px 0 0;
+                  &:hover {
+                    background-color: #5789ee;
+                  }
+                }
+              }
+            }
+            @media (max-width: 575.98px) {
+              margin: 30px 0 30px 0;
+            }
+            @media (min-width: 576px) and (max-width: 767.98px) {
+              margin: 30px 0 30px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

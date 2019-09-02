@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Helvetica, sans-serif;
+  src: url(../fonts/helvetica/Helvetica-Normal.ttf);
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #E9EBEE;
+}
+.top-signin {
+  background-color: #3B5998;
+}
+.top-signin .container .row {
+  min-height: 90px;
+}
+.top-signin .container .row .col-sm-6 {
+  display: flex;
+  align-items: center;
+}
+.top-signin .container .row .col-sm-6.logo .image-logo h1 {
+  color: #ffffff;
+  font-weight: bolder;
+}
+.top-signin .container .row .col-sm-6.sign-in {
+  justify-content: flex-end;
+}
+.top-signin .container .row .col-sm-6.sign-in .signin-area {
+  display: flex;
+}
+.top-signin .container .row .col-sm-6.sign-in .signin-area .username-box,
+.top-signin .container .row .col-sm-6.sign-in .signin-area .password-box {
+  margin: 0 30px 0 0;
+  font-size: 12px;
+}
+.top-signin .container .row .col-sm-6.sign-in .signin-area .username-box label,
+.top-signin .container .row .col-sm-6.sign-in .signin-area .password-box label {
+  display: block;
+  color: #ffffff;
+}
+.top-signin .container .row .col-sm-6.sign-in .signin-area .button-box {
+  display: flex;
+  align-items: flex-end;
+}
+.top-signin .container .row .col-sm-6.sign-in .signin-area .button-box button {
+  background-color: #4267B2;
+  color: #ffffff;
+  border: 1px solid #29487d;
+  font-size: 12px;
+  line-height: 34px;
+}
+.body-content {
+  padding: 30px 0;
+  background-image: linear-gradient(#FDFDFE, #F3F4F9, #E4E7F1, #D4D9E8);
+}
+.body-content .container .row .col-sm-6.sideleft {
+  text-align: center;
+}
+.body-content .container .row .col-sm-6.sideleft .title {
+  margin: 0 0 30px 0;
+}
+.body-content .container .row .col-sm-6.sideleft .title h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.body-content .container .row .col-sm-6.sideleft img {
+  width: 70%;
+  opacity: .5;
+}
+.body-content .container .row .col-sm-6.sideright .title {
+  margin: 0 0 30px 0;
+}
+.body-content .container .row .col-sm-6.sideright .title h3 {
+  text-align: left;
+  font-size: 36px;
+  font-weight: bold;
+}
+.body-content .container .row .col-sm-6.sideright .signup-box input {
+  display: block;
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+.body-content .container .row .col-sm-6.sideright .signup-box button.signup {
+  display: inline-block;
+  padding: 7px 70px;
+  background-image: linear-gradient(#64A751, #609F4E, #5C9448, #588B44);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+.body-content .container .row .col-sm-6.sideright .signup-box button.signup:hover {
+  background-color: #5789ee;
+}
+.top-todo {
+  background-color: #3B5998;
+}
+.top-todo .container .row {
+  min-height: 40px;
+}
+.top-todo .container .row .col-sm-6.sideleft {
+  display: flex;
+  align-items: center;
+}
+.top-todo .container .row .col-sm-6.sideleft h3.logo {
+  margin: 0 30px 0 0;
+  color: #ffffff;
+}
+.top-todo .container .row .col-sm-6.sideleft input#search-box {
+  font-size: 13px;
+  border: 1px solid #1d2129;
+  width: 65%;
+}
+.top-todo .container .row .col-sm-6.sideright {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top-todo .container .row .col-sm-6.sideright .profile {
+  display: flex;
+  align-items: center;
+}
+.top-todo .container .row .col-sm-6.sideright .profile ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.top-todo .container .row .col-sm-6.sideright .profile ul li {
+  margin: 0 10px;
+}
+.top-todo .container .row .col-sm-6.sideright .profile button.logout {
+  background-color: #4267B2;
+  color: #ffffff;
+  border: 1px solid #29487d;
+  font-size: 12px;
+  line-height: 24px;
+}
+.top-todo .container .row .col-sm-6.sideright .profile button.logout:hover {
+  background-color: #5789ee;
+}
+.body-content-todo {
+  background-color: #E9EBEE;
+  margin: 20px 0;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo {
+  background-color: #F5F6F7;
+  border-radius: 10px;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .title h6 {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .input-todo input {
+  border: none;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .subtitle {
+  margin: 20px 0 0;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .subtitle h6 {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 12px;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .textarea-desc {
+  padding: 0 0 30px;
+}
+.body-content-todo .container .row .col-sm-6.sideleft .textbox-todo .textarea-desc textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px 20px;
+  border: none;
+  height: 150px;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box {
+  margin: 0 0 30px 0;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box h5 {
+  display: inline-block;
+  margin: 0;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box p {
+  font-size: 13px;
+  margin: 0;
+  padding: 0 0 0 23px;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box .button {
+  padding: 0 0 0 23px;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box .button button.edit,
+.body-content-todo .container .row .col-sm-6.sideright .task-box .button button.delete {
+  font-size: 12px;
+  background-color: #4267B2;
+  color: #ffffff;
+  border: 1px solid #29487d;
+  line-height: 24px;
+}
+.body-content-todo .container .row .col-sm-6.sideright .task-box .button button.edit:hover,
+.body-content-todo .container .row .col-sm-6.sideright .task-box .button button.delete:hover {
+  background-color: #5789ee;
+}
