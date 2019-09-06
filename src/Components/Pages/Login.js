@@ -50,7 +50,7 @@ export default class Login extends Component {
               <div className="col-sm-12 col-md-6 col-lg-6 sideright">
                 <div className="title">
                   <h3>
-                    Create an account
+                    Create an account todolist
                   </h3>
                   <p>
                     It's Quick and Easy
